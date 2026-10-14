@@ -44,6 +44,32 @@ body {
     box-shadow: 0 12px 32px rgba(255, 193, 7, 0.6);
 }
 
-h1, footer {
+h1,footer {
     color: #fff;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    liststyle: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.board { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; } 
+
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
+    url("https://image.tmdb.org/t/p/w1280/여기에_backdrop_path")
 }
